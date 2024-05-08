@@ -27,7 +27,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Home />} />
+        // <Route path="/" element={<Home />} />
         <Route path="/dashboard" element={<Dashboard />} />
         <Route path="/records" element={<Records />} />
         <Route path="/today" element={<Today />} />
@@ -38,7 +38,7 @@ function App() {
         <Route path="/super/jobs" element={<Job />} />
         <Route path="/applications" element={<Application />} />
         <Route path="/details" element={<Unique />} />
-        <Route path="/final-stage" element={<Onboarding />} />
+        <Route path="/" element={<Onboarding />} />
         <Route path="/payment-method" element={<Payment />} />
         <Route path="/admin-onboard" element={<AdminOnBoard />} />
         <Route path="/payment-secure-login" element={<NextStep />} />
